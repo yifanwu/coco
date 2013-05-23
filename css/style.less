@@ -1,34 +1,142 @@
-@blue: #009FE3;
-@green: #7CBE20;
+/*@blue: #009FE3;*/
+@blue: #5BBCD5;
+@green: #8CBE30;
+@gray: #393B3E;
+@gray_dark: darken(@gray, 10%);
 
 html, body {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    background: #EFF1F2;
 }
 
+h2 {
+    font-family: "Merriweather", serif;
+    font-weight: normal;
+}
+
+@media (min-width: 721px) {
+    font-size: 16px;
+}
+
+@media (max-width: 720px) {
+    font-size: 12px;
+}
+
+/* ------------------------------------------------------------------- HEADER */
+
 #topbar {
-    background: #393B3E;
+    /*background: @gray_dark;*/
+    overflow: hidden;
+
     img.logo-img {
-        width: 50px;
+        float: left;
+        width: 48px;
         margin: 10px;
     }
-    img.logo-text {
+    img.logo-txt {
+        float: left;
+        margin-top: 18px;
+    }
+}
+
+#navigation {
+    ul {
+        list-style: none;
+        margin: 0;
+    }
+    ul li {
+        display: inline-block;
+
+        color: #FFF;
+        text-transform: uppercase;
+
+        font-weight: bold;
+        a:hover {
+            border-bottom: 2px solid #FFF;
+        }        
+    }
+    ul li a {
+        text-decoration: none;
+        color: #FFF;
+    }
+}
+
+#header {
+    height: 300px;
+    background: url("http://cocovoice.com/resources/bg_woodtile.jpg");
+}
+
+@media (min-width: 721px) {
+    #navigation ul {
+        float: right;
+        padding: 0;
+        line-height: 68px;
+    }
+    #navigation ul li {
+        margin: 0 12px;
+    }
+}
+
+@media (max-width: 720px) {
+    .logo-horizontal {
+        overflow: hidden;
+    }
+
+    #navigation ul {
+        background: rgba(0, 0, 0, 0.5);
+        padding: 0;
+    }
+
+    #navigation ul li {
+        padding: 10px 10px 14px;
+        margin: 0;
+        a {
+            font-size: 12px;
+        }
     }
 }
 
 /* --------------------------------------------------------------------- MAIN */
 
 #main {
-    h2 {
-        padding: 10px;        
-        background: @blue;
-        color: #FFF;
-        font-family: serif;
-        font-size: 36px;
+    .section-header {
+        
+        &.green {background: @green;}
+        &.blue {background: @blue;}
+        &.gray {background: @gray;}
+
+        color: #FFF;        
+        
+        h2 {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 2% 8%;
+            font-size: 3em;
+        }        
+    }
+    .section-content {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 0 8%;
     }
 }
 
+#story {
+    img {
+        width: 30%;
+        background: #FFF;
+        padding: 2%;
+    }
+}
+
+/* --------------------------------------------------------------------- MAIN */
+
 #footer {
+    h2 {
+        margin: 0;
+    }
     background: #6D6F72;
 }
