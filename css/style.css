@@ -1,3 +1,17 @@
-/*@blue: #009FE3;*/
-html,body{margin:0;padding:0;font-family:"Open Sans",sans-serif;font-size:16px;background:#EFF1F2}h2{font-family:"Merriweather",serif;font-weight:400}@media (min-width: 721px){font-size:16px}@media (max-width: 720px){font-size:12px}#topbar{overflow:hidden}#topbar img.logo-img{float:left;width:48px;margin:10px}#topbar img.logo-txt{float:left;margin-top:18px}#navigation ul{list-style:none;margin:0}#navigation ul li{display:inline-block;color:#FFF;text-transform:uppercase;font-weight:700}#navigation ul li a:hover{border-bottom:2px solid #FFF}#navigation ul li a{text-decoration:none;color:#FFF}#header{height:300px;background:url("http://cocovoice.com/resources/bg_woodtile.jpg")}@media (min-width: 721px){#navigation ul{ float:right;padding:0;line-height:68px}#navigation ul li{margin:0 12px}}@media (max-width: 720px){.logo-horizontal{ overflow:hidden}#navigation ul{background:rgba(0,0,0,.5);padding:0}#navigation ul li{padding:10px 10px 14px;margin:0}#navigation ul li a{font-size:12px}}#main .section-header{color:#FFF}#main .section-header.green{background:#8cbe30}#main .section-header.blue{background:#5bbcd5}#main .section-header.gray{background:#393b3e}#main .section-header h2{max-width:960px;margin:0 auto;padding:2% 8%;font-size:3em}#main .section-content{max-width:960px;margin:0 auto;padding:0 8%}#story img{width:30%;background:#FFF;padding:2%}#footer{background:#6D6F72}#footer h2{margin:0}
-/* This beautiful CSS-File has been crafted with LESS (lesscss.org) and compiled by simpLESS (wearekiss.com/simpless) */
+/* CSS crunched with Crunch - http://crunchapp.net/ */
+html,body{margin:0;padding:0;font-family:"Open Sans",sans-serif;font-size:16px;background:#EFF1F2;}
+p emph{font-size:20px;font-weight:bold;color:#2e0854;}
+h2{font-family:"Merriweather",serif;font-weight:normal;}
+@media (min-width:721px){font-size:16px;}@media (max-width:720px){font-size:12px;}#topbar{overflow:hidden;}#topbar img.logo-img{float:left;width:48px;margin:10px;}
+#topbar img.logo-txt{float:left;margin-top:18px;}
+#navigation ul{list-style:none;margin:0;}
+#navigation ul li{display:inline-block;color:#FFF;text-transform:uppercase;font-weight:bold;}#navigation ul li a:hover{border-bottom:2px solid #FFF;}
+#navigation ul li a{text-decoration:none;color:#FFF;}
+#header{height:80px;background:#5bbcd5;}
+@media (min-width:721px){#navigation ul{float:right;padding:0;line-height:68px;} #navigation ul li{margin:0 12px;}}@media (max-width:720px){.logo-horizontal{overflow:hidden;} #navigation ul{background:rgba(0, 0, 0, 0.5);padding:0;} #navigation ul li{padding:10px 10px 14px;margin:0;}#navigation ul li a{font-size:12px;}}#main .section-header{color:#FFF;}#main .section-header.green{background:#8cbe30;}
+#main .section-header.blue{background:#5bbcd5;}
+#main .section-header.gray{background:#393b3e;}
+#main .section-header h2{max-width:960px;margin:0 auto;padding:2% 8%;font-size:3em;}
+#main .section-content{max-width:960px;margin:0 auto;padding:0 8%;}
+#story img{width:30%;background:#FFF;padding:2%;}
+#footer{background:#6D6F72;}#footer h2{margin:0;}
