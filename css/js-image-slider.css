@@ -4,6 +4,10 @@
 
 /*remove the "margin:0 auto;" if you want to align the whole slider to the left side*/
  
+.mcSlc, #slider {
+	background-size: 100px 306px !important;
+}
+
 #sliderFrame {
 	position:relative;
 	width:700px;
