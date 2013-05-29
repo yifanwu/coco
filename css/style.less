@@ -2,6 +2,8 @@
 @blue: #5BBCD5;
 @green: #8CBE30;
 @gray: #393B3E;
+@pink: #FF00FF;
+@purple: #2E0854;
 @gray_dark: darken(@gray, 10%);
 
 html, body {
@@ -12,6 +14,11 @@ html, body {
     background: #EFF1F2;
 }
 
+p emph {
+    font-size:20px;
+    font-weight: bold;
+    color:@purple;
+}
 h2 {
     font-family: "Merriweather", serif;
     font-weight: normal;
@@ -65,8 +72,9 @@ h2 {
 }
 
 #header {
-    height: 300px;
-    background: url("http://cocovoice.com/resources/bg_woodtile.jpg");
+    height: 80px;
+    background: @blue;
+    //background: url("http://cocovoice.com/resources/bg_woodtile.jpg");
 }
 
 @media (min-width: 721px) {
